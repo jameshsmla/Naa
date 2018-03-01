@@ -13,7 +13,7 @@ public class NumberWordsTests {
 	}
 @Test
 	public void numberRangeList() {
-		Assert.assertEquals( "18", "Eighteen", numberWords.toWords(18) ) ;
+		Assert.assertEquals( "18", "Eighteen", numberWords.toWords(8) ) ;
 	}
 	@Test
 	public void numberOutOfRange() {
